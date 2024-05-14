@@ -29,7 +29,7 @@ h1:hover{
 .main__card-container{
   min-width: 80vw;
   min-height: 80vh;
-  margin: 5% 10%;
+  margin-bottom: 5px;
   border: 3px dotted #D0378C;
   border-radius: 20px;
   color: #D0378C;
@@ -41,6 +41,13 @@ h1:hover{
   text-align: start;
   padding: 10px;
 }
+
+@media only screen and (min-width: 600px) {
+  .main__card-container {
+    margin: 5% 10%;
+  }
+}
+
 
 p{
   text-shadow: 1px 1px 1px rgba(233,153,196,1);
