@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  background: linear-gradient(to bottom, rgba(233,153,196,1) 0%, rgba(233,103,156,1) 20%, rgba(233,153,196,1) 25%, rgba(158,5,100,1) 100%);
+}
+.title__card-container{
+  text-align: center;
+}
+small{
+  width: 80vw;
+  font-family: 'Urbanist', cursive;
+  font-size: .75rem;
+  text-shadow: 2px 2px 2px #FBEDD5; 
+  text-align: center;
+}
+small:hover{
+  cursor: pointer;
+}
+img{
+  z-index: 1000;
+  display:none;
+}
+.birthday-card__img:hover{
+  cursor: pointer;
+}
+h1:hover{
+  cursor: pointer;
+}
+.main__card-container{
+  min-width: 80vw;
+  min-height: 80vh;
+  margin: 5% 10%;
+  border: 3px dotted #D0378C;
+  border-radius: 20px;
+  color: #D0378C;
+  background-color: #FBEDD5;
+  font-family: 'Urbanist', cursive;
+  font-size: 1.5rem;
+  text-shadow: 4px 4px 4px black;
+  letter-spacing: .1rem; 
+  text-align: start;
+  padding: 10px;
+}
+
+p{
+  text-shadow: 1px 1px 1px rgba(233,153,196,1);
+  /* opacity: 0; */
+}
+
+
+button {
+  width: 70%;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+}
+
+.button-box{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.nineteen {
+  border-radius: 4px;
+  background: linear-gradient(to right, #67b26b, #4ca2cb);
+  color: #fff;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nineteen span {
+  position: relative;
+  transition: 400ms;
+  font-size: 50px;
+}
+
+.nineteen span::after {
+  content: '\00bb';
+  position: absolute; 
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 500ms;
+}
+
+.nineteen:hover span {
+  padding-right: 25px;
+}
+
+.nineteen:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.icon{
+  font-size: 50px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
