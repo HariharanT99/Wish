@@ -15,7 +15,6 @@
     text-align: center;
     position: relative;
     top: 100px;
-
   }
   
   img {
@@ -43,9 +42,6 @@
     grid-template-rows: repeat(16, 1fr);
   }
   
-  .collage1 {
-    /* background: linear-gradient(135deg, rgb(249, 110, 151) 0%, rgb(144, 0, 62) 100%); */
-  }
   .collage1 .item {
     border: 5px solid white;
   }

@@ -49,13 +49,19 @@ p{
 
 
 button {
-  width: 70%;
+  width: 60%;
   padding: 20px;
   font-size: 50px;
   font-weight: 700;
   cursor: pointer;
   border: none;
   position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    width: 90%;
+  }
 }
 
 .button-box{
@@ -71,6 +77,7 @@ button {
   padding: 20px 0;
   text-transform: uppercase;
   font-weight: 600;
+  z-index: 100000000;
 }
 
 .nineteen span {

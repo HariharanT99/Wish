@@ -21,17 +21,19 @@ h1, h2 {
   font-family: 'Sen', sans-serif;
 }
 
+@media only screen and (min-width: 600px) {
+    h2 {
+      font-size: 160px;
+    }
+}
+
+
 #confetti{
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-}
-
-.wrapper{
-    width: 90%;
-    height: 90%;
 }
 
 .btn{
@@ -44,13 +46,20 @@ h1{
 }
 
 button {
-    width: 70%;
+    width: 60%;
     padding: 20px;
     font-size: 50px;
     font-weight: 700;
     cursor: pointer;
     border: none;
     position: absolute;
+}
+
+
+@media only screen and (max-width: 600px) {
+    button {
+      width: 90%;
+    }
 }
 
 .button-box{
@@ -66,6 +75,7 @@ button {
     padding: 20px 0;
     text-transform: uppercase;
     font-weight: 600;
+    z-index: 100000000;
 }
 
 .nineteen span {
